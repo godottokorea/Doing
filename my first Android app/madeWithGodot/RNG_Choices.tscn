@@ -1,0 +1,423 @@
+[gd_scene load_steps=25 format=2]
+
+[ext_resource path="res://RNG_Choices.gd" type="Script" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.27451, 0.745098, 0.27451, 1 )
+border_color = Color( 0, 0, 0, 1 )
+border_blend = true
+shadow_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=14]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=15]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=16]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=17]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=18]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=19]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=20]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=21]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=22]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[sub_resource type="StyleBoxFlat" id=23]
+bg_color = Color( 0, 0, 0, 0.784314 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.313726, 0.0117647, 0.376471, 1 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -9.99998
+margin_bottom = -9.99997
+color = Color( 0.784314, 1, 0.784314, 0.392157 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="ColorRect2"]
+anchor_right = 1.0
+margin_bottom = 14.0
+size_flags_vertical = 1
+custom_styles/normal = SubResource( 1 )
+text = "RNG My Decisions"
+align = 1
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="ColorRect2"]
+margin_left = 149.0
+margin_top = 20.0
+margin_right = 199.0
+margin_bottom = 70.0
+custom_styles/normal = SubResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+action_mode = 0
+clip_text = true
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 20.0
+margin_right = 140.0
+margin_bottom = 70.0
+custom_styles/normal = SubResource( 2 )
+custom_colors/default_color = Color( 0.27451, 1, 0.27451, 1 )
+text = "Type your choices in the small boxes & press the green button."
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit1" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 74.0
+margin_right = 100.0
+margin_bottom = 98.0
+custom_styles/normal = SubResource( 4 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit3" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 102.0
+margin_right = 100.0
+margin_bottom = 126.0
+custom_styles/normal = SubResource( 5 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit5" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 130.0
+margin_right = 100.0
+margin_bottom = 154.0
+custom_styles/normal = SubResource( 6 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit7" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 158.0
+margin_right = 100.0
+margin_bottom = 182.0
+custom_styles/normal = SubResource( 7 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit9" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 186.0
+margin_right = 100.0
+margin_bottom = 210.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit11" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 214.0
+margin_right = 100.0
+margin_bottom = 238.0
+custom_styles/normal = SubResource( 9 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit13" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 242.0
+margin_right = 100.0
+margin_bottom = 266.0
+custom_styles/normal = SubResource( 10 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit15" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 270.0
+margin_right = 100.0
+margin_bottom = 294.0
+custom_styles/normal = SubResource( 11 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit17" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 298.0
+margin_right = 100.0
+margin_bottom = 322.0
+custom_styles/normal = SubResource( 12 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit19" type="LineEdit" parent="ColorRect2"]
+margin_left = 6.0
+margin_top = 326.0
+margin_right = 100.0
+margin_bottom = 350.0
+custom_styles/normal = SubResource( 13 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit2" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 74.0
+margin_right = 199.0
+margin_bottom = 98.0
+custom_styles/normal = SubResource( 14 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit4" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 102.0
+margin_right = 199.0
+margin_bottom = 126.0
+custom_styles/normal = SubResource( 15 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit6" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 130.0
+margin_right = 199.0
+margin_bottom = 154.0
+custom_styles/normal = SubResource( 16 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit8" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 158.0
+margin_right = 199.0
+margin_bottom = 182.0
+custom_styles/normal = SubResource( 17 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit10" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 186.0
+margin_right = 199.0
+margin_bottom = 210.0
+custom_styles/normal = SubResource( 18 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit12" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 214.0
+margin_right = 199.0
+margin_bottom = 238.0
+custom_styles/normal = SubResource( 19 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit14" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 242.0
+margin_right = 199.0
+margin_bottom = 266.0
+custom_styles/normal = SubResource( 20 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit16" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 270.0
+margin_right = 199.0
+margin_bottom = 294.0
+custom_styles/normal = SubResource( 21 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit18" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 298.0
+margin_right = 199.0
+margin_bottom = 322.0
+custom_styles/normal = SubResource( 22 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit20" type="LineEdit" parent="ColorRect2"]
+margin_left = 105.0
+margin_top = 326.0
+margin_right = 199.0
+margin_bottom = 350.0
+custom_styles/normal = SubResource( 23 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+max_length = 15
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="ColorRect2/Button" to="." method="_on_Button_pressed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit3" to="." method="_on_LineEdit3_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit5" to="." method="_on_LineEdit5_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit7" to="." method="_on_LineEdit7_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit9" to="." method="_on_LineEdit9_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit11" to="." method="_on_LineEdit11_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit13" to="." method="_on_LineEdit13_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit15" to="." method="_on_LineEdit15_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit17" to="." method="_on_LineEdit17_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit19" to="." method="_on_LineEdit19_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit2" to="." method="_on_LineEdit2_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit4" to="." method="_on_LineEdit4_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit6" to="." method="_on_LineEdit6_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit8" to="." method="_on_LineEdit8_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit10" to="." method="_on_LineEdit10_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit12" to="." method="_on_LineEdit12_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit14" to="." method="_on_LineEdit14_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit16" to="." method="_on_LineEdit16_text_changed"]
+[connection signal="text_changed" from="ColorRect2/LineEdit18" to="." method="_on_LineEdit18_text_changed"]
