@@ -73,7 +73,7 @@ func _ready():
 	opt18.hide()
 	opt19.hide()
 	opt20.hide()
-	button.set_text(str(choiceNum))
+	button.set_text("Roll: " + str(choiceNum))
 
 
 # RNG FOR ALL BOXES
@@ -199,161 +199,161 @@ func _on_LineEdit2_text_changed(_new_text):
 	if opt2.get_text() == '': 
 		opt3.hide()
 		choiceNum = 2
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt3.show()
 		choiceNum = 3
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit3_text_changed(_new_text):
 	if opt3.get_text() == '': 
 		opt4.hide()
 		choiceNum = 3
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt4.show()
 		choiceNum = 4
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit4_text_changed(_new_text):
 	if opt4.get_text() == '': 
 		opt5.hide()
 		choiceNum = 4
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt5.show()
 		choiceNum = 5
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit5_text_changed(_new_text):
 	if opt5.get_text() == '': 
 		opt6.hide()
 		choiceNum = 5
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt6.show()
 		choiceNum = 6
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit6_text_changed(_new_text):
 	if opt6.get_text() == '': 
 		opt7.hide()
 		choiceNum = 6
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt7.show()
 		choiceNum = 7
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit7_text_changed(_new_text):
 	if opt7.get_text() == '': 
 		opt8.hide()
 		choiceNum = 7
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt8.show()
 		choiceNum = 8
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit8_text_changed(_new_text):
 	if opt8.get_text() == '': 
 		opt9.hide()
 		choiceNum = 8
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt9.show()
 		choiceNum = 9
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit9_text_changed(_new_text):
 	if opt9.get_text() == '': 
 		opt10.hide()
 		choiceNum = 9
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt10.show()
 		choiceNum = 10
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit10_text_changed(_new_text):
 	if opt10.get_text() == '': 
 		opt11.hide()
 		choiceNum = 10
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt11.show()
 		choiceNum = 11
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit11_text_changed(_new_text):
 	if opt11.get_text() == '': 
 		opt12.hide()
 		choiceNum = 11
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt12.show()
 		choiceNum = 12
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit12_text_changed(_new_text):
 	if opt12.get_text() == '': 
 		opt13.hide()
 		choiceNum = 12
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt13.show()
 		choiceNum = 13
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit13_text_changed(_new_text):
 	if opt13.get_text() == '': 
 		opt14.hide()
 		choiceNum = 13
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt14.show()
 		choiceNum = 14
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit14_text_changed(_new_text):
 	if opt14.get_text() == '': 
 		opt15.hide()
 		choiceNum = 14
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt15.show()
 		choiceNum = 15
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit15_text_changed(_new_text):
 	if opt15.get_text() == '': 
 		opt16.hide()
 		choiceNum = 15
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt16.show()
 		choiceNum = 16
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit16_text_changed(_new_text):
 	if opt16.get_text() == '': 
 		opt17.hide()
 		choiceNum = 16
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt17.show()
 		choiceNum = 17
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit17_text_changed(_new_text):
 	if opt17.get_text() == '': 
 		opt18.hide()
 		choiceNum = 17
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt18.show()
 		choiceNum = 18
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit18_text_changed(_new_text):
 	if opt18.get_text() == '': 
 		opt19.hide()
 		choiceNum = 18
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt19.show()
 		choiceNum = 19
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 func _on_LineEdit19_text_changed(_new_text):
 	if opt19.get_text() == '': 
 		opt20.hide()
 		choiceNum = 19
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
 	else: 
 		opt20.show()
 		choiceNum = 20
-		button.set_text(str(choiceNum))
+		button.set_text("Roll: " + str(choiceNum))
